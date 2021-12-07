@@ -1,9 +1,9 @@
 body
+
 {
-
-    color:#333;
-
-    text-align: left;
+    background-color: #1e1f24;
+    color: black;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
@@ -19,15 +19,36 @@ body
     font-weight: bold;
 }
 
+#cabecera #logo {
+    width: 20px;
+    vertical-align: middle;
+}
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+
+}
+
 #container h1 {
     font-size: 20px;
-     
+  
 
 }
 #cabecera {
-    background-color: blue;
+
+background-color: rgb(13, 13, 197);
+box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+font-weight: bold;
     color: white;
     padding: o.5em;
     margin: 0;
      
+}
+
+#post
+{
+    background-color: white;
+    padding: 1em;
 }
